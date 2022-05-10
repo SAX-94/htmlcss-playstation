@@ -2,4 +2,119 @@
 spezzettarlo in fie più piccoli, isolati, monotematici.
 Poi li importo con [@import url("file.css")]. */
 
-@import url();
+/******************************
+    GENERAL STYLES
+*******************************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.custom-btn{
+    border-radius: 60px;
+    font-weight: 600;
+}
+
+/******************************
+    SITE SECTIONS
+*******************************/
+
+
+/* ----- HEADER -----*/
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 40;
+    background-color: white;
+}
+
+/*
+HEADER-TOP
+*/
+.header-top{
+    background-color: black;
+}
+
+.header-top .logo{
+    width: 77px;
+    margin: 10px;
+}
+
+/*
+HEADER BOTTOM
+*/
+.header-bottom .custom-navbar{
+    padding: 2px 0;
+}
+
+.header-bottom .custom-navbar .nav-item span,
+.header-bottom .custom-navbar .right-item span{
+    margin-right: 5px;
+    color: black;
+}
+
+.header-bottom .custom-navbar .nav-item:hover span,
+.header-bottom .custom-navbar .right-item:hover span{
+    color: #0875d3;
+}
+
+.header-bottom .custom-navbar .nav-item img,
+.header-bottom .custom-navbar .right-item img{
+    width: 10px;
+    margin-right: 9px;
+}
+
+.header-bottom .custom-navbar .nav-item .hover,
+.header-bottom .custom-navbar .right-item .hover{
+    display: none;
+}
+
+.header-bottom .custom-navbar .nav-item:hover .std,
+.header-bottom .custom-navbar .right-item:hover .std{
+    display: none;
+}
+
+.header-bottom .custom-navbar .nav-item:hover .hover,
+.header-bottom .custom-navbar .right-item:hover .hover{
+    display: inline-block;
+}
+
+.header-bottom .custom-navbar .right-item{
+    cursor: pointer;
+}
+
+.header-bottom .custom-navbar .right-item span{
+    font-weight: 600;
+}
+
+.header-bottom .custom-navbar .right-item img{
+    margin-right: 19px;
+}
+
+.header-bottom .custom-navbar .right button{
+    background-color: #373737;
+    border-color: #373737;
+}
+
+.header-bottom .custom-navbar .right button:hover{
+    background-color: #5b636a;
+    border-color: #5b636a;
+}
+
+.header-bottom .custom-navbar .right .lens{
+    width: 22px;
+    margin: 0 9px 0 32px;
+    cursor: pointer;
+}
