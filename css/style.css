@@ -59,35 +59,29 @@ HEADER BOTTOM
     padding: 2px 0;
 }
 
-.header-bottom .custom-navbar .nav-item span,
-.header-bottom .custom-navbar .right-item span{
+.header-bottom .custom-navbar .nav-item span, .header-bottom .custom-navbar .right-item span{
     margin-right: 5px;
     color: black;
 }
 
-.header-bottom .custom-navbar .nav-item:hover span,
-.header-bottom .custom-navbar .right-item:hover span{
+.header-bottom .custom-navbar .nav-item:hover span, .header-bottom .custom-navbar .right-item:hover span{
     color: #0875d3;
 }
 
-.header-bottom .custom-navbar .nav-item img,
-.header-bottom .custom-navbar .right-item img{
+.header-bottom .custom-navbar .nav-item img, .header-bottom .custom-navbar .right-item img{
     width: 10px;
     margin-right: 9px;
 }
 
-.header-bottom .custom-navbar .nav-item .hover,
-.header-bottom .custom-navbar .right-item .hover{
+.header-bottom .custom-navbar .nav-item .hover, .header-bottom .custom-navbar .right-item .hover{
     display: none;
 }
 
-.header-bottom .custom-navbar .nav-item:hover .std,
-.header-bottom .custom-navbar .right-item:hover .std{
+.header-bottom .custom-navbar .nav-item:hover .std, .header-bottom .custom-navbar .right-item:hover .std{
     display: none;
 }
 
-.header-bottom .custom-navbar .nav-item:hover .hover,
-.header-bottom .custom-navbar .right-item:hover .hover{
+.header-bottom .custom-navbar .nav-item:hover .hover, .header-bottom .custom-navbar .right-item:hover .hover{
     display: inline-block;
 }
 
@@ -117,4 +111,25 @@ HEADER BOTTOM
     width: 22px;
     margin: 0 9px 0 32px;
     cursor: pointer;
+}
+
+/*
+JUMBOTRON
+*/
+.jumbotron{
+    height: 587px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 101px;
+}
+
+.jumbotron .content{
+    height: 100%;
+    color: white;
+}
+
+.jumbotron .content img, .jumbotron .content h1, .jumbotron .content p{
+    margin-bottom: 30px;
 }
