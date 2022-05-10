@@ -55,59 +55,59 @@ HEADER-TOP
 /*
 HEADER BOTTOM
 */
-.header-bottom .custom-navbar{
+.header-bottom .navbar-custom{
     padding: 2px 0;
 }
 
-.header-bottom .custom-navbar .nav-item span, .header-bottom .custom-navbar .right-item span{
+.header-bottom .navbar-custom .nav-item span, .header-bottom .navbar-custom .right-item span{
     margin-right: 5px;
     color: black;
 }
 
-.header-bottom .custom-navbar .nav-item:hover span, .header-bottom .custom-navbar .right-item:hover span{
+.header-bottom .navbar-custom .nav-item:hover span, .header-bottom .navbar-custom .right-item:hover span{
     color: #0875d3;
 }
 
-.header-bottom .custom-navbar .nav-item img, .header-bottom .custom-navbar .right-item img{
+.header-bottom .navbar-custom .nav-item img, .header-bottom .navbar-custom .right-item img{
     width: 10px;
     margin-right: 9px;
 }
 
-.header-bottom .custom-navbar .nav-item .hover, .header-bottom .custom-navbar .right-item .hover{
+.header-bottom .navbar-custom .nav-item .hover, .header-bottom .navbar-custom .right-item .hover{
     display: none;
 }
 
-.header-bottom .custom-navbar .nav-item:hover .std, .header-bottom .custom-navbar .right-item:hover .std{
+.header-bottom .navbar-custom .nav-item:hover .std, .header-bottom .navbar-custom .right-item:hover .std{
     display: none;
 }
 
-.header-bottom .custom-navbar .nav-item:hover .hover, .header-bottom .custom-navbar .right-item:hover .hover{
+.header-bottom .navbar-custom .nav-item:hover .hover, .header-bottom .navbar-custom .right-item:hover .hover{
     display: inline-block;
 }
 
-.header-bottom .custom-navbar .right-item{
+.header-bottom .navbar-custom .right-item{
     cursor: pointer;
 }
 
-.header-bottom .custom-navbar .right-item span{
+.header-bottom .navbar-custom .right-item span{
     font-weight: 600;
 }
 
-.header-bottom .custom-navbar .right-item img{
+.header-bottom .navbar-custom .right-item img{
     margin-right: 19px;
 }
 
-.header-bottom .custom-navbar .right button{
+.header-bottom .navbar-custom .right button{
     background-color: #373737;
     border-color: #373737;
 }
 
-.header-bottom .custom-navbar .right button:hover{
+.header-bottom .navbar-custom .right button:hover{
     background-color: #5b636a;
     border-color: #5b636a;
 }
 
-.header-bottom .custom-navbar .right .lens{
+.header-bottom .navbar-custom .right .lens{
     width: 22px;
     margin: 0 9px 0 32px;
     cursor: pointer;
@@ -122,7 +122,7 @@ JUMBOTRON
     background-position: center;
     background-size: cover;
     margin-bottom: 30px;
-    margin-top: 101px;
+    margin-top: 98px;
 }
 
 .jumbotron .content{
