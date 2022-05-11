@@ -421,9 +421,42 @@ HEADER BOTTOM
     margin-bottom: 48px;
 }
 
-
 /* -------- FOOTER -------- */
 
 footer {
     background-color: var(--footer-blue);
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    color: white;
+    font-size: 15px;
+}
+
+footer .ps-logo {
+    width: 95px;
+    margin-bottom: 37px;
+}
+
+footer .country {
+    margin-bottom: 45px;
+}
+
+footer .country .globe {
+    width: 19px;
+}
+
+footer ul li {
+    line-height: 32px;
+}
+
+footer .sie-logo {
+    width: 125px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: wheat;
 }
