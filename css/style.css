@@ -6,32 +6,52 @@ Poi li importo con [@import url("file.css")]. */
     GENERAL STYLES
 *******************************/
 
+/* JUST FOR DEBUG */
+section, footer {
+    min-height: 160px;
+    border: 1px solid red;
+}
+
+:root {
+    /* Palette */
+    --footer-blue: #2f4897;
+    /* Commons */
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-ul a{
+ul a {
     text-decoration: none;
     color: white;
 }
 
-.custom-btn{
+.custom-btn {
     border-radius: 60px;
     font-weight: 600;
 }
 
+.scale-up-hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scale-up-hover:hover {
+    transform: scale(1.175);
+}
+
 /******************************
     SITE SECTIONS
-*******************************/
-
+*******************************
 
 /* ----- HEADER -----*/
 
-header{
+header {
     position: fixed;
     top: 0;
     right: 0;
@@ -43,71 +63,74 @@ header{
 /*
 HEADER-TOP
 */
-.header-top{
+.header-top {
     background-color: black;
 }
 
-.header-top .logo{
-    width: 77px;
-    margin: 10px;
+.header-top .logo {
+    width: 80px;
+}
+
+.header-top > .container-fluid > .d-flex {
+    padding: 12px 0;
 }
 
 /*
 HEADER BOTTOM
 */
-.header-bottom .navbar-custom{
+.header-bottom .navbar-custom {
     padding: 2px 0;
 }
 
-.header-bottom .navbar-custom .nav-item span, .header-bottom .navbar-custom .right-item span{
+.header-bottom .navbar-custom .nav-item span, .header-bottom .navbar-custom .right-item span {
     margin-right: 5px;
     color: black;
 }
 
-.header-bottom .navbar-custom .nav-item:hover span, .header-bottom .navbar-custom .right-item:hover span{
+.header-bottom .navbar-custom .nav-item:hover span, .header-bottom .navbar-custom .right-item:hover span {
     color: #0875d3;
 }
 
-.header-bottom .navbar-custom .nav-item img, .header-bottom .navbar-custom .right-item img{
+.header-bottom .navbar-custom .nav-item img, .header-bottom .navbar-custom .right-item img {
     width: 10px;
     margin-right: 9px;
 }
 
-.header-bottom .navbar-custom .nav-item .hover, .header-bottom .navbar-custom .right-item .hover{
+.header-bottom .navbar-custom .nav-item .hover, .header-bottom .navbar-custom .right-item .hover {
     display: none;
 }
 
-.header-bottom .navbar-custom .nav-item:hover .std, .header-bottom .navbar-custom .right-item:hover .std{
+.header-bottom .navbar-custom .nav-item:hover .std, .header-bottom .navbar-custom .right-item:hover .std {
     display: none;
 }
 
-.header-bottom .navbar-custom .nav-item:hover .hover, .header-bottom .navbar-custom .right-item:hover .hover{
+.header-bottom .navbar-custom .nav-item:hover .hover, .header-bottom .navbar-custom .right-item:hover .hover {
     display: inline-block;
 }
 
-.header-bottom .navbar-custom .right-item{
+.header-bottom .navbar-custom .right-item {
     cursor: pointer;
 }
 
-.header-bottom .navbar-custom .right-item span{
+.header-bottom .navbar-custom .right-item span {
     font-weight: 600;
 }
 
-.header-bottom .navbar-custom .right-item img{
+.header-bottom .navbar-custom .right-item img {
     margin-right: 19px;
 }
 
-.header-bottom .navbar-custom .right button{
+.header-bottom .navbar-custom .right button {
     background-color: #373737;
     border-color: #373737;
 }
 
-.header-bottom .navbar-custom .right button:hover{
+.header-bottom .navbar-custom .right button:hover {
     background-color: #5b636a;
     border-color: #5b636a;
 }
 
-.header-bottom .navbar-custom .right .lens{
+.header-bottom .navbar-custom .right .lens {
     width: 22px;
     margin: 0 9px 0 32px;
     cursor: pointer;
@@ -116,7 +139,7 @@ HEADER BOTTOM
 /*
 JUMBOTRON
 */
-.jumbotron{
+.jumbotron {
     height: 587px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -125,11 +148,33 @@ JUMBOTRON
     margin-top: 98px;
 }
 
-.jumbotron .content{
+.jumbotron .content {
     height: 100%;
     color: white;
 }
 
-.jumbotron .content img, .jumbotron .content h1, .jumbotron .content p{
+.jumbotron .content img, .jumbotron .content h1, .jumbotron .content p {
     margin-bottom: 30px;
+}
+
+/*
+MAIN SLIDER
+*/
+.main-slider {
+    margin-bottom: 85px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.main-slider > .game-card {
+    margin-bottom: 1rem;
+}
+
+.main-slider .game-card.active {
+    border-color: #0875d3;
+}
+
+.main-slider img {
+    width: 100%;
+    border-radius: 15px;
 }
