@@ -13,9 +13,11 @@ section, footer {
 }
 
 :root {
-    /* Palette */
+    /* Sections backgrounds */
     --footer-blue: #2f4897;
-    /* Commons */
+    --news-bg-color: #262626;
+    --ps-plus-bg-color: #bdbcbb;
+    --ps-now-bg-color: #21243d;
 }
 
 body {
@@ -136,9 +138,8 @@ HEADER BOTTOM
     cursor: pointer;
 }
 
-/*
-JUMBOTRON
-*/
+/* ------ JUMBOTRON ------ */
+
 .jumbotron {
     height: 587px;
     background-image: url(../img/jumbo-bg.png);
@@ -157,24 +158,46 @@ JUMBOTRON
     margin-bottom: 30px;
 }
 
-/*
-MAIN SLIDER
-*/
+/* ------ GAMES SLIDER ------ */
+
 .main-slider {
     margin-bottom: 85px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-.main-slider > .game-card {
+.games-slider > .game-card {
     margin-bottom: 1rem;
 }
 
-.main-slider .game-card.active {
+.games-slider .game-card.active {
     border-color: #0875d3;
 }
 
-.main-slider img {
+.games-slider img {
     width: 100%;
     border-radius: 15px;
+}
+
+/* ----- ECCO PLAYSTATION 5 ----- */
+
+
+/* ----- BANNER IT TAKES TO ----- */
+
+/* ------- NUOVE USCITE ------- */
+
+/* ----- ESPLORA PLAYSTATION 4 ----- */
+
+/* ---- BANNER PLAYSTATION PLUS ---- */
+
+/* ---- SCONTI PLAYSTATION STORE ---- */
+
+/* ----- BANNER PLAYSTATION NOW ----- */
+
+/* ------ SEGUICI SUI SOCIAL ------ */
+
+/* -------- FOOTER -------- */
+
+footer {
+    background-color: var(--footer-blue);
 }
