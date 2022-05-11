@@ -141,21 +141,19 @@ HEADER BOTTOM
 /* ------ JUMBOTRON ------ */
 
 .jumbotron {
-    height: 587px;
+    min-height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
     margin-bottom: 30px;
     margin-top: 98px;
+    padding-top: 17rem;
+    padding-bottom: 5rem;
 }
 
 .jumbotron .content {
     height: 100%;
     color: white;
-}
-
-.jumbotron .content img, .jumbotron .content h1, .jumbotron .content p {
-    margin-bottom: 30px;
 }
 
 /* ------ GAMES SLIDER ------ */
