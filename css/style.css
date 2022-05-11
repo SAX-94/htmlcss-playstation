@@ -312,9 +312,40 @@ HEADER BOTTOM
 }
 
 /* ---- BANNER PLAYSTATION PLUS ---- */
+
 #ps-plus {
     background-color: var(--ps-plus-bg-color);
 }
+
+#ps-plus{
+    background-color: #bdbcba;
+}
+
+#ps-plus .col.left img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#ps-plus .col.left p{
+    margin-bottom: 30px;
+}
+
+#ps-plus .col.left button{
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+    color: #0875d3;
+}
+
+#ps-plus .col.left button:hover{
+    background-color: #dadbdc;
+    outline: 3px solid #c7c5c5;
+    outline-offset: -3px;
+}
+
+#ps-plus .col.right img{
+    width: 100%;
+}
+
 /* ---- SCONTI PLAYSTATION STORE ---- */
 
 /* ----- BANNER PLAYSTATION NOW ----- */
