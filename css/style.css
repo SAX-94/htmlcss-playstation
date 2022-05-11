@@ -47,6 +47,10 @@ ul a {
     transform: scale(1.175);
 }
 
+.scale-up-less-hover:hover {
+    transform: scale(1.1);
+}
+
 /******************************
     SITE SECTIONS
 *******************************
@@ -179,60 +183,60 @@ HEADER BOTTOM
 
 /* ----- ECCO PLAYSTATION 5 ----- */
 
-.ps5{
+.ps5 {
     margin-bottom: 16px;
 }
 
-.ps5 .top-text{
+.ps5 .top-text {
     margin-bottom: 67px;
 } 
 
-.ps5 .top-text .upper-title{
+.ps5 .top-text .upper-title {
     color: #0875d3;
     font-weight: 600;
     font-size: .9rem;
 }
 
-.ps5 h1{
+.ps5 h1 {
     margin-bottom: 28px;
 }
 
-.ps5 p{
+.ps5 p {
     color: #797979;
     font-size: 20px;
     margin-bottom: 28px;
 }
 
-.ps5 .content{
+.ps5 .content {
     margin-bottom: 60px;
 }
 
-.ps5 .content img{
+.ps5 .content img {
     width: 100%;
 }
 
-.ps5 .ps5-bundle-item{
+.ps5 .ps5-bundle-item {
     border-bottom: 2px solid transparent;
     opacity: 0.5;
     transition: opacity 0.3s;
     cursor: pointer;
 }
 
-.ps5 .ps5-bundle-item.active{
+.ps5 .ps5-bundle-item.active {
     opacity: 1;
 }
 
-.ps5 .ps5-bundle-item:hover{
+.ps5 .ps5-bundle-item:hover {
     opacity: 1;
     border-color: #0875d3;
 }
 
-.ps5 .ps5-bundle-item img{
+.ps5 .ps5-bundle-item img {
     width: 100%;
     margin: 0 auto 11px;
 }
 
-.ps5 .ps5-bundle-item h6{
+.ps5 .ps5-bundle-item h6 {
     font-weight: 600;
     margin-bottom: 29px;
     display: none;
@@ -240,7 +244,7 @@ HEADER BOTTOM
 
 /* ----- BANNER IT TAKES TWO ----- */
 
-.it-takes-2{
+.it-takes-2 {
     height: 618px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -248,11 +252,11 @@ HEADER BOTTOM
     color: white;
 }
 
-.it-takes-2 img{
+.it-takes-2 img {
     width: 61%;
 }
 
-.it-takes-2 img, .it-takes-2 h1, .it-takes-2 p{
+.it-takes-2 img, .it-takes-2 h1, .it-takes-2 p {
     margin-bottom: 30px;
 }
 
@@ -264,50 +268,50 @@ HEADER BOTTOM
     color: white;
 }
 
-#news h2, #news h4{
+#news h2, #news h4 {
     margin-bottom: 20px;
 }
 
-#news img{
+#news img {
     width: 100%;
     border-radius: 20px;
     margin-bottom: 12px;
 }
 
-#news p{
+#news p {
     font-weight: 600;
     margin-bottom: 45px;
 }
 
 /* ----- ESPLORA PLAYSTATION 4 ----- */
 
-.ps4{
+.ps4 {
     padding-top: 70px;
 }
 
-.ps4 .text-center h1{
+.ps4 .text-center h1 {
     margin-bottom: 30px;
 }
 
-.ps4 p{
+.ps4 p {
     color: #797979;
     font-size: 20px;
     margin-bottom: 28px;
 }
 
-.ps4 img{
+.ps4 img {
     width: 100%;
 }
 
-.ps4 .col h1{
+.ps4 .col h1 {
     margin-bottom: 17px;
 }
 
-.ps4 .col p{
+.ps4 .col p {
     margin-bottom: 23px;
 }
 
-.ps4 button{
+.ps4 button {
     margin-bottom: 70px;
 }
 
@@ -317,38 +321,55 @@ HEADER BOTTOM
     background-color: var(--ps-plus-bg-color);
 }
 
-#ps-plus{
+#ps-plus {
     background-color: #bdbcba;
 }
 
-#ps-plus .col.left img{
+#ps-plus .col.left img {
     width: 60%;
     margin-bottom: 30px;
 }
 
-#ps-plus .col.left p{
+#ps-plus .col.left p {
     margin-bottom: 30px;
 }
 
-#ps-plus .col.left button{
+#ps-plus .col.left button {
     background-color: #d9dadc;
     border-color: #d9dadc;
     color: #0875d3;
 }
 
-#ps-plus .col.left button:hover{
+#ps-plus .col.left button:hover {
     background-color: #dadbdc;
     outline: 3px solid #c7c5c5;
     outline-offset: -3px;
 }
 
-#ps-plus .col.right img{
+#ps-plus .col.right img {
     width: 100%;
 }
 
 /* ---- SCONTI PLAYSTATION STORE ---- */
 
+.discounts {
+    padding: 70px 0 30px 0;
+}
 
+.discounts h1 {
+    margin-bottom: 27px;
+}
+
+.discounts p {
+    color: #797979;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.discounts img {
+    width: 100%;
+    margin-bottom: 48px;
+}
 
 /* ----- BANNER PLAYSTATION NOW ----- */
 #ps-now {
