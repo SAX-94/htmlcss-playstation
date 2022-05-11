@@ -238,7 +238,23 @@ HEADER BOTTOM
     display: none;
 }
 
-/* ----- BANNER IT TAKES TO ----- */
+/* ----- BANNER IT TAKES TWO ----- */
+
+.it-takes-2{
+    height: 618px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.it-takes-2 img{
+    width: 61%;
+}
+
+.it-takes-2 img, .it-takes-2 h1, .it-takes-2 p{
+    margin-bottom: 30px;
+}
 
 /* ------- NUOVE USCITE ------- */
 #news {
