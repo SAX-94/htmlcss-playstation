@@ -281,6 +281,36 @@ HEADER BOTTOM
 
 /* ----- ESPLORA PLAYSTATION 4 ----- */
 
+.ps4{
+    padding-top: 70px;
+}
+
+.ps4 .text-center h1{
+    margin-bottom: 30px;
+}
+
+.ps4 p{
+    color: #797979;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.ps4 img{
+    width: 100%;
+}
+
+.ps4 .col h1{
+    margin-bottom: 17px;
+}
+
+.ps4 .col p{
+    margin-bottom: 23px;
+}
+
+.ps4 button{
+    margin-bottom: 70px;
+}
+
 /* ---- BANNER PLAYSTATION PLUS ---- */
 #ps-plus {
     background-color: var(--ps-plus-bg-color);
