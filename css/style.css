@@ -9,7 +9,6 @@ Poi li importo con [@import url("file.css")]. */
 /* JUST FOR DEBUG */
 section, footer {
     min-height: 160px;
-    border: 1px solid red;
 }
 
 :root {
