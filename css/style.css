@@ -264,17 +264,17 @@ HEADER BOTTOM
     color: white;
 }
 
-.new-releases h2, .new-releases h4{
+#news h2, #news h4{
     margin-bottom: 20px;
 }
 
-.new-releases img{
+#news img{
     width: 100%;
     border-radius: 20px;
     margin-bottom: 12px;
 }
 
-.new-releases p{
+#news p{
     font-weight: 600;
     margin-bottom: 45px;
 }
