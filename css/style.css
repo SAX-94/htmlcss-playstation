@@ -38,7 +38,7 @@ ul a {
     font-weight: 600;
 }
 
-.scale-up-hover {
+.scale-up-hover, .scale-up-less-hover {
     cursor: pointer;
     transition: 0.3s;
 }
@@ -375,6 +375,33 @@ HEADER BOTTOM
 #ps-now {
     background-color: var(--ps-now-bg-color);
 }
+
+#ps-now .col.left img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#ps-now .col.left p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+#ps-now .col.left button{
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    color: #161c3c;
+}
+
+#ps-now .col.left button:hover{
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    outline-color: #161c3c;
+}
+
+#ps-now .col.right img{
+    width: 100%;
+}
+
 /* ------ SEGUICI SUI SOCIAL ------ */
 
 /* -------- FOOTER -------- */
