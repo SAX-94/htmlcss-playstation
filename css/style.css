@@ -213,8 +213,8 @@ HEADER BOTTOM
 
 .ps5 .ps5-bundle-item{
     border-bottom: 2px solid transparent;
-    opacity: .5;
-    transition: opacity .35s;
+    opacity: 0.5;
+    transition: opacity 0.3s;
     cursor: pointer;
 }
 
@@ -257,9 +257,28 @@ HEADER BOTTOM
 }
 
 /* ------- NUOVE USCITE ------- */
+
 #news {
     background-color: var(--news-bg-color);
+    padding-top: 28px;
+    color: white;
 }
+
+.new-releases h2, .new-releases h4{
+    margin-bottom: 20px;
+}
+
+.new-releases img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.new-releases p{
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
 /* ----- ESPLORA PLAYSTATION 4 ----- */
 
 /* ---- BANNER PLAYSTATION PLUS ---- */
