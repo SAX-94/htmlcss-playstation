@@ -185,15 +185,21 @@ HEADER BOTTOM
 /* ----- BANNER IT TAKES TO ----- */
 
 /* ------- NUOVE USCITE ------- */
-
+#news {
+    background-color: var(--news-bg-color);
+}
 /* ----- ESPLORA PLAYSTATION 4 ----- */
 
 /* ---- BANNER PLAYSTATION PLUS ---- */
-
+#ps-plus {
+    background-color: var(--ps-plus-bg-color);
+}
 /* ---- SCONTI PLAYSTATION STORE ---- */
 
 /* ----- BANNER PLAYSTATION NOW ----- */
-
+#ps-now {
+    background-color: var(--ps-now-bg-color);
+}
 /* ------ SEGUICI SUI SOCIAL ------ */
 
 /* -------- FOOTER -------- */
