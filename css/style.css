@@ -179,6 +179,64 @@ HEADER BOTTOM
 
 /* ----- ECCO PLAYSTATION 5 ----- */
 
+.ps5{
+    margin-bottom: 16px;
+}
+
+.ps5 .top-text{
+    margin-bottom: 67px;
+} 
+
+.ps5 .top-text .upper-title{
+    color: #0875d3;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.ps5 h1{
+    margin-bottom: 28px;
+}
+
+.ps5 p{
+    color: #797979;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.ps5 .content{
+    margin-bottom: 60px;
+}
+
+.ps5 .content img{
+    width: 100%;
+}
+
+.ps5 .ps5-bundle-item{
+    border-bottom: 2px solid transparent;
+    opacity: .5;
+    transition: opacity .35s;
+    cursor: pointer;
+}
+
+.ps5 .ps5-bundle-item.active{
+    opacity: 1;
+}
+
+.ps5 .ps5-bundle-item:hover{
+    opacity: 1;
+    border-color: #0875d3;
+}
+
+.ps5 .ps5-bundle-item img{
+    width: 100%;
+    margin: 0 auto 11px;
+}
+
+.ps5 .ps5-bundle-item h6{
+    font-weight: 600;
+    margin-bottom: 29px;
+    display: none;
+}
 
 /* ----- BANNER IT TAKES TO ----- */
 
