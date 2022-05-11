@@ -37,6 +37,37 @@ ul a {
     font-weight: 600;
 }
 
+.btn-dark:hover {
+    box-shadow: 0 0 0px 2px white, 0 0 0px 6px #373737;
+    background-color: #373737 !important;
+    border-color: #373737 !important;
+}
+
+.btn-danger:hover {
+    box-shadow: 0 0 0px 2px white, 0 0 0px 6px #dc3545;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 0px 2px white, 0 0 0px 6px #0d6efd;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+
+.ps-plus-hover:hover {
+    box-shadow: 0 0 0px 2px black, 0 0 0px 6px #d9dadc;
+    background-color: #d9dadc !important;
+    border-color: #d9dadc !important;
+    outline: none !important;
+}
+
+.ps-now-hover:hover {
+    box-shadow: 0 0 0px 2px black, 0 0 0px 6px #f5f5f5;
+    background-color: #f5f5f5 !important;
+    border-color: #f5f5f5 !important;
+}
+
 .scale-up-hover, .scale-up-less-hover {
     cursor: pointer;
     transition: 0.3s;
